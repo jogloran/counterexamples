@@ -196,7 +196,7 @@ There are several solutions:
 
     Here, `good` is an IO action which allocates a mutable reference
     of an arbitrary type (fine, implementable as `newIORef Nothing`),
-    while `bad` is an IO action which allocations a polymorphic
+    while `bad` is an IO action which allocates a polymorphic
     mutable reference (unsound). Note that the only distinction
     between these two is the placement of `IO`.
 
